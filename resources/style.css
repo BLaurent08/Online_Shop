@@ -1,0 +1,50 @@
+#midBody{
+    /* a light gradient from the bottom up */
+    background-image: linear-gradient(to bottom, beige 0%, #f8797900 100%);
+    min-height: 40rem;
+}
+
+#footer .btn:hover, .hover:hover, .dropdown-item:hover {
+    background-color: beige !important;
+    color: black !important;
+}
+
+.popper:hover {
+    box-shadow: .25rem .25rem 2rem black;
+}
+
+.popper {
+    transition: box-shadow .5s, background-color .5s;
+}
+
+.popper-text{
+    color: black;
+    transition: text-shadow .5s;
+}
+
+.popper-text:hover{
+    text-shadow: .25rem .25rem 1rem black;
+}
+
+.popper-lite {
+    transition: box-shadow .5s;
+}
+
+.popper-lite:hover {
+    box-shadow: .25rem .25rem 1rem rgba(0, 0, 0, 0.482);
+}
+
+.navbar-collapse {
+    /* aligns to the right/end of the navbar */
+    justify-content: flex-end;
+}
+
+/* the dropdown-menu is centered to the dropdown button */
+.dropdown-menu {
+    left: auto;
+    right: 0;
+}
+
+#ratiod {
+    max-height: 5rem;
+}
